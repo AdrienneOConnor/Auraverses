@@ -5,108 +5,108 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Auraverse</title>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Quicksand&display=swap" rel="stylesheet">
-<style>
-  body {
-    margin: 0;
-    font-family: 'Quicksand', sans-serif;
-    color: silver;
-    background: url('https://cdn.jsdelivr.net/gh/auraverse-assets/moonlit-forest-bg.png') center center / cover no-repeat fixed;
-    background-color: #000;
-    overflow-x: hidden;
-  }
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      color: silver;
+      background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAYACAIAAABn4K39AAEAAElEQVR4nFT9wa5u29IkBkXEmOve+pHLuBA0CgkJCQv8BvSRRQOJrhuW6NLkXWgAD4DEMyBegQZd+rTcwwLL9Z89RwaNiJzrcF3lOvfus9f6vjnHyIyMiMwkfv5jmBBBcgyRhg1gDIoAaI5NQp4LmT7GEGMMBqSgAwIz1hFojwFRtk2Q9OSHDgwInPEjXIPgHUswIWNACaY5JGACIDEDEIRoGAaR/+TTYWgAtIF8UpEGYAA3fwSToKiZAWCafEz0D/O3PTjA0DRE3nz6IewRDtGfacyQNNyHBhumbRgUCOIAA+SzirQxMEHQYxskjHw7DCEZF3kKFPMGQBiwRQ5AggY80++Xf0cgOWOQBCj4GvkJBPOT8j3z34akhyTZb2PTAEXa+9vpPBYg75ecB8RgRMDXOPYQhuj7/Wt5UoCxbwwCxj') center center / cover no-repeat fixed;
+      background-color: #000;
+      overflow-x: hidden;
+    }
 
-  .stars {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 0;
-    background: transparent url('https://i.ibb.co/ZYW3VTp/stars-bg.png') repeat;
-    animation: moveStars 200s linear infinite;
-    pointer-events: none;
-  }
+    .stars {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: 0;
+      background: transparent url('https://i.ibb.co/ZYW3VTp/stars-bg.png') repeat;
+      animation: moveStars 200s linear infinite;
+      pointer-events: none;
+    }
 
-  @keyframes moveStars {
-    0% { background-position: 0 0; }
-    100% { background-position: 10000px 10000px; }
-  }
+    @keyframes moveStars {
+      0% { background-position: 0 0; }
+      100% { background-position: 10000px 10000px; }
+    }
 
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 1;
-  }
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+    }
 
-  .container {
-    position: relative;
-    z-index: 2;
-    text-align: center;
-    padding: 150px 20px 80px;
-    animation: auraPulse 6s infinite ease-in-out;
-  }
+    .container {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      padding: 150px 20px 80px;
+      animation: auraPulse 6s infinite ease-in-out;
+    }
 
-  @keyframes auraPulse {
-    0% { text-shadow: 0 0 15px #ff00ff88, 0 0 25px #00ffff88; }
-    50% { text-shadow: 0 0 25px #ffffffaa, 0 0 35px #ffd700aa; }
-    100% { text-shadow: 0 0 15px #ff00ff88, 0 0 25px #00ffff88; }
-  }
+    @keyframes auraPulse {
+      0% { text-shadow: 0 0 15px #ff00ff88, 0 0 25px #00ffff88; }
+      50% { text-shadow: 0 0 25px #ffffffaa, 0 0 35px #ffd700aa; }
+      100% { text-shadow: 0 0 15px #ff00ff88, 0 0 25px #00ffff88; }
+    }
 
-  h1 {
-    font-family: 'Cinzel Decorative', cursive;
-    font-size: 5rem;
-    color: silver;
-    margin-bottom: 25px;
-  }
+    h1 {
+      font-family: 'Cinzel Decorative', cursive;
+      font-size: 5rem;
+      color: silver;
+      margin-bottom: 25px;
+    }
 
-  p {
-    font-size: 1.6rem;
-    max-width: 850px;
-    margin: 0 auto;
-    line-height: 2;
-    color: silver;
-  }
+    p {
+      font-size: 1.6rem;
+      max-width: 850px;
+      margin: 0 auto;
+      line-height: 2;
+      color: silver;
+    }
 
-  .email-link {
-    display: inline-block;
-    margin-top: 50px;
-    padding: 14px 28px;
-    border: 2px solid silver;
-    color: silver;
-    text-decoration: none;
-    border-radius: 16px;
-    font-size: 1.2rem;
-    transition: 0.3s;
-  }
+    .email-link {
+      display: inline-block;
+      margin-top: 50px;
+      padding: 14px 28px;
+      border: 2px solid silver;
+      color: silver;
+      text-decoration: none;
+      border-radius: 16px;
+      font-size: 1.2rem;
+      transition: 0.3s;
+    }
 
-  .email-link:hover {
-    background-color: #ccc3;
-    box-shadow: 0 0 15px silver;
-  }
+    .email-link:hover {
+      background-color: #ccc3;
+      box-shadow: 0 0 15px silver;
+    }
 
-  .music-btn {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: #111;
-    color: silver;
-    padding: 14px 20px;
-    border: none;
-    border-radius: 16px;
-    cursor: pointer;
-    z-index: 10;
-    opacity: 0.75;
-    font-size: 1rem;
-  }
+    .music-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #111;
+      color: silver;
+      padding: 14px 20px;
+      border: none;
+      border-radius: 16px;
+      cursor: pointer;
+      z-index: 10;
+      opacity: 0.75;
+      font-size: 1rem;
+    }
 
-  .music-btn:hover {
-    opacity: 1;
-  }
-</style>
+    .music-btn:hover {
+      opacity: 1;
+    }
+  </style>
 </head>
 <body>
   <div class="stars"></div>
